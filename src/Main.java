@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        int index = service.calculate(105,1.86);
-        System.out.println(index);
+        int index = service.calculate(98,1.87);
+        System.out.println("bmi-индекс " + index);
     }
 }
